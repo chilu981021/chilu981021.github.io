@@ -5,7 +5,7 @@ I am a junior undergradute majoring in Econometrics at the University of Illinoi
 
 [Resume](https://guides.github.com/features/mastering-markdown/).
 
-[Linked](linkedin.com/in/chi-lu-b434721a3).
+[Linked](https://www.linkedin.com/in/chi-lu-b434721a3/).
 
 [Github Profile](https://chilu981021.github.io/).
 
