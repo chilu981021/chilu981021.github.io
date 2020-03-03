@@ -10,7 +10,7 @@ I am a junior undergradute majoring in Econometrics at the University of Illinoi
 [Github Profile](https://chilu981021.github.io/).
 
 
-### Blog
+## Blog
 
 This semester, I am taking the courses focusing on the areas of Public Sector(Public Finance), Industrial Comp and Monopoly, International Trading. Please feel free to discuss any of these topics with me. 
 
