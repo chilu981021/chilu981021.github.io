@@ -16,7 +16,7 @@ This semester, I am taking the courses focusing on the areas of Public Sector(Pu
 
 So far, I have learnt the basic R code through Stat385 including: data type&structure, basic plotting skills, and using github page or RMarkdown to create a personal page. 
 
-##Homework3 Excercise one R code: 
+## Homework3 Excercise one R code: 
 (a)
 
 specific_sum_vec <- function(m,pos){
