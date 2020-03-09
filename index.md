@@ -16,8 +16,8 @@ This semester, I am taking the courses focusing on the areas of Public Sector(Pu
 
 So far, I have learnt the basic R code through Stat385 including: data type&structure, basic plotting skills, and using github page or RMarkdown to create a personal page. 
 
-Homework3 R code: 
-## (a)
+##Homework3 Excercise one R code: 
+(a)
 
 specific_sum_vec <- function(m,pos){
   my_sum <- sum(m[1:nrow(m),pos])
@@ -29,7 +29,7 @@ specific_sum_vec(m,pos)
 
 
 
-## (b)
+(b)
 
 long_names_vec <- function(names){
   name <- names[nchar(names) >= 8]
@@ -42,7 +42,7 @@ long_names_vec(names = my_names)
 
 
 
-## (c)
+(c)
 
 roulette_vec <- function(many_bets){
   win_lose_random <- sample(x = c(TRUE, FALSE), size = length(many_bets), replace = TRUE)
@@ -69,49 +69,3 @@ long_vec <- rep(c("red", "black", "low", "high", "second", "first", "third",
                   "odd", "even"), 10000)
 system.time(roulette_vec(many_bets = long_vec))
 roulette_vec(many_bets = c("red", "black", "low", "high"))
-
-
-
-
-
-
-###---------------------------------------------------------------------------###
-
-## Exercise 2
-
-## (a) 
-mx <- mean(iris$Sepal.Length)
-hist(x = iris$Sepal.Length, main = "Histogram of Sepal Length", xlab = "Sepal Length",
-     breaks = 15, border = "dodgerblue", probability = TRUE,
-     ylim = c(0, 0.65), xlim = c(4, 8.2))
-abline(v = mx, col = "red")
-text(6.04,0.6,"x=5.843", col = "red")
-box()
-grid()
-
-
-## (b)
-hist(x = faithful$eruptions, main = "Histogram of Old Faithful Geyser Eruption Time", 
-     ylab = "Density", xlab = "Eruption Time(mins)", probability = TRUE,
-     xlim = c(1,6), ylim = c(0,0.8), breaks = 18,
-     border = "dodgerblue")
-lines(density(faithful$eruptions), col = "orange", lwd = 2)
-box()
-grid()
-
-
-## (c)
-par(mfrow = c(1,2))
-hist( x = faithful$waiting, probability = TRUE,
-      main = "Histogram of Waiting Time", xlab = "Waiting Time(mins)", ylab = "Density",
-      border = "dodgerblue", breaks = 12)
-box()
-grid()
-plot(faithful$eruptions~faithful$waiting, 
-     main = 
-       
-       "Waiting Time vs Eruption Time", xlab = "Waiting Time(mins)", ylab = "Eruption Time(mins)", 
-     col = "dodgerblue", pch = 19)
-box()
-grid()
-
