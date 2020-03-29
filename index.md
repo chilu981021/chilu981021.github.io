@@ -7,7 +7,7 @@ I am a junior undergradute majoring in Econometrics at the University of Illinoi
 
 [Linked](https://www.linkedin.com/in/chi-lu-b434721a3/).
 
-[Github Profile](https://chilu981021.github.io/).
+[Github Profile](https://github.com/chilu981021).
 
 
 ## Blog
